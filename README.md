@@ -20,9 +20,7 @@
 
 Rakenna oma mobiilirobotti! Tämä projekti on alun pitäen saanut alkunsa Tampereen kaupungin Masseista mahiksia -tapahtumana syksyllä 2026. Tapahtumassa yläkoululaiset pääsivät rakentamaan oman mobiilirobotin, jota ohjataan älypuhelimella WiFin välityksellä. Robotti sisältää myös yksinkertaisen törmäyksenestojärjestelmän ultraääniantureiden avulla. Robotin kasausprosessi opettaa käytännön läheisesti sulautettujen järjestelmien toiminnan eli sen miten anturit ja toimilaitteet toimivat yhdessä!
 
-Tapahtuma sopii erinomaisesti kaikille – aiempaa kokemusta ei vaadita. 💡
-
-📄 Kaikki projektin tiedostot, mukaan lukien tämä repo, löytyvät osoitteesta [github.com/aapokek/Rakenna-oma-mobiilirobotti](https://github.com/aapokek/Rakenna-oma-mobiilirobotti)
+Robotin kasaaminen ohjatusti sopii erinomaisesti kaikille – aiempaa kokemusta ei vaadita! Kokoneemmat rakentelijat voivat rakentaa robotin helposti itsenäisesti yksityiskohtaisen dokumentaation avulla!
 
 ---
 
@@ -70,7 +68,8 @@ Tapahtuma sopii erinomaisesti kaikille – aiempaa kokemusta ei vaadita. 💡
 │   ├── 📂 STEP                ← Universaali 3D-formaatti
 │   └── 📂 STL                 ← Suoraan 3D-tulostimeen/Sliceriin!
 ├── 📂 Dokumentaatio
-│   └── Kasausohje (.pdf & .docx)   ← Täysi, yksityiskohtainen ohje
+│   ├── Kasausohje (.pdf & .docx)
+│   └── Build instructions (.pdf & .docx)
 ├── 📂 Koodit
 │   └── Mobiilirobotin_koodi
 │       └── Mobiilirobotin_koodi.ino   ← Arduino-koodi ESP8266:lle
@@ -86,6 +85,8 @@ Tapahtuma sopii erinomaisesti kaikille – aiempaa kokemusta ei vaadita. 💡
 ## 🚀 Pikaopas kasaukseen
 
 > 📄 Löydät täyden, yksityiskohtaisen ohjeen hakemistosta [`Dokumentaatio/`](Dokumentaatio/)  
+> - Suomeksi: *Rakenna oma mobiilirobotti – Kasausohje* (.pdf / .docx)  
+> - In English: *Build your own mobile robot – Build instructions* (.pdf / .docx)  
 > 🎬 Tai katso kasausvideo: [youtu.be/AeR3-ane96E](https://youtu.be/AeR3-ane96E)
 
 ### 1️⃣ Koodin asennus
